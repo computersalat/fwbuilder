@@ -63,7 +63,7 @@ static string iface_prefix       = "ifcfg-";
 static string iface_filename     = networkscripts_dir+"/"+iface_prefix;
 
 static string fwadmin_ssh_key       = "/.ssh/id_rsa.pub";
-static string fwadmin_known_hosts   = "/.ssh/known_hosts2";
+static string fwadmin_known_hosts   = "/.ssh/known_hosts";
 
 string OSConfigurator_secuwall::myPlatformName()
 {
